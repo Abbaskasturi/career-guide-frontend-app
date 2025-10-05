@@ -1,0 +1,103 @@
+.salary-heading{
+  font-family: "Roboto"; 
+  font-size: 20px; 
+  font-weight: 800; 
+  color: #000000;
+  margin-left: 10px;
+
+}
+.dollar-icon{
+    color: goldenrod; 
+    font-size: 25px;
+}
+.salary-container{
+    display: flex; 
+    flex-direction: row;
+    margin-left: 8px;
+
+}
+.salary-container-outer{
+    width: 100%; 
+}
+.india-salary-container{
+    width: 100%; 
+    border: 1px solid #3059F2; 
+    background-color: #DFE4F7;
+    border-radius: 8px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+.india-para{
+    font-size: 18px; 
+    color: #3059F2; 
+    font-weight: 800; 
+    font-family: "Roboto"; 
+    margin-bottom: 10px;
+}
+.india-exp-para{
+   font-size: 18px; 
+   color: #3059F2; 
+    font-weight: 800; 
+    font-family: "Roboto";  
+}
+.salary{
+    font-size: 18px; 
+   color: #3059F2; 
+    font-weight: 500; 
+    font-family: "Roboto"; 
+}
+.global-salary-container{
+    width: 100%; 
+    border: 1px solid #40F56D; 
+    background-color: #DAEDDF;
+    border-radius: 8px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+.global-para{
+    font-size: 18px; 
+    color: #0CF54A; 
+    font-weight: 800; 
+    font-family: "Roboto"; 
+    margin-bottom: 10px;
+}
+.global-exp-para{
+   font-size: 18px; 
+  color: #0CF54A; 
+    font-weight: 800; 
+    font-family: "Roboto";  
+}
+.salary-global{
+    font-size: 18px; 
+    color: #0CF54A; 
+    font-weight: 500; 
+    font-family: "Roboto";
+}
+.large-size-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  align-items: stretch;
+}
+@media (min-width: 756px) {
+  .large-size-container{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;  
+    align-items: stretch;
+  }
+
+  .india-salary-container {
+    width: 45%;
+    margin: 4px; 
+  }
+
+  .global-salary-container {
+    width: 45% ;
+    margin: 4px;
+  }
+}

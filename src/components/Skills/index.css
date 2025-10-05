@@ -1,0 +1,12 @@
+.skill-items{
+    height: 20px; 
+    background-color: #E7CDF7;
+    font-size: 15px; 
+    font-family: "Roboto"; 
+    color: #890FD4; 
+    border-radius: 10px;
+    border: 0px; 
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

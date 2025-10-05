@@ -1,0 +1,21 @@
+.company-item{
+    width: 40%; 
+    background-color: #CDE1F7;
+    border: 1px solid #5098EB; 
+    border-radius: 8px; 
+    display : flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    color: #5098EB; 
+    font-size: 18px; 
+    font-weight: 500; 
+    font-family: "Roboto"; 
+    padding: 10px;
+    margin: 10px; 
+}
+@media (min-width: 756px){
+    .company-item{
+        width: 30%; 
+    }
+}

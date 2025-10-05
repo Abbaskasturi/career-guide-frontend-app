@@ -1,0 +1,144 @@
+.internship-main-container{
+    width: 90%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top:20px; 
+    border-radius: 10px;
+    background-color: #ffffff; 
+    padding: 15px;
+}
+.internship-heading{
+    font-size: 25px; 
+    font-family: "Roboto"; 
+    color:#000000; 
+    font-weight: 900; 
+    margin-top: 8px;
+}
+.internship-para{
+    text-align: center;
+    color: #716E75;
+    font-size: 20px; 
+    font-family: "Roboto"; 
+    font-weight: 400; 
+    padding-top: 10px; 
+    margin-bottom: 10px;
+
+}
+.internship-box-container{
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 10px;
+}
+.build-container{
+    width: 90%; 
+    border: 1px solid #6480ED;
+    background-color: #CBD5F7;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 10px;
+}
+.build-container-1{
+    width: 90%; 
+    border: 1px solid #1af07c;
+    background-color: #BAE8CE;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 10px;
+}
+.build-container-2{
+    width: 90%; 
+    border: 1px solid #DA7CE6;
+    background-color: #E4D5E6;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 10px;
+}
+.book-icon{
+    color: #2F5BED;
+    font-size: 50px; 
+}
+.book-icon-1{
+    color: #04DE3E;
+    font-size: 50px; 
+}
+.book-icon-2{
+    color: #2937F0;
+    font-size: 50px; 
+}
+.build-heading{
+    color: #073EF5; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 600; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.build-heading-1{
+    color: #06751E; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 600; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.build-heading-2{
+    color: #5D67F0; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 600; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.master-para{
+    color: #5275EB; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    margin-bottom: 10px;
+}
+.master-para-1{
+    color: #2CDB52; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    margin-bottom: 10px;
+}
+.master-para-2{
+    color: #6973F0; 
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    margin-bottom: 10px;
+}
+@media (min-width: 756px){
+    .internship-box-container{
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }.build-container{
+        width: 42%; 
+    }.build-container-1{
+        width: 42%; 
+    }.build-container-2{
+        width: 42%; 
+    }
+}

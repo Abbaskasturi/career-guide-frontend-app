@@ -1,0 +1,44 @@
+.logout-container{
+    height: 70px;
+    width: 100vw; 
+    background-color: #ffffff;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.logout-heading{
+    font-size: 25px; 
+    color: #E38DF0; 
+    font-family: "Roboto";
+    font-weight: 800; 
+}
+.logout-btn{
+    font-size: 18px; 
+    color: #000000; 
+    font-family: "Roboto";
+    font-weight: 500; 
+    width: 100px; 
+    height: 35px; 
+    border-width: 1px;
+    border-style: solid; 
+    border-color: #D8D7E0;  
+    border-radius: 30px; 
+    text-align: center;
+    background-color: transparent;
+}
+.log-target-icon{
+    font-size: 40px; 
+    color: #8B7EF2; 
+    margin: 5px;
+
+}
+.logout-icon-container{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}

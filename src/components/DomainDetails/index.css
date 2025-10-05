@@ -1,0 +1,248 @@
+.domain-data-container {
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.domain-heading-inside-container {
+  width: 100%;
+  background-image: linear-gradient(to right,#A974F2, #F06EE1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 15px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+.domain-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Roboto"; 
+  margin-bottom: 10px;
+}
+.stable-btn{
+  width: 100%; 
+  height: 20px;
+  border-radius: 10px; 
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff; 
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px; 
+  font-weight: 500; 
+}
+.botton-data-container{
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+  padding: 10px;
+}
+.bulb-icon{
+  font-size: 25px; 
+  color: #A974F2; 
+  font-weight: bold; 
+
+}
+.what-heading{
+  font-size: 20px; 
+  color: #000000; 
+  font-family: "Roboto"; 
+  margin-left: 5px;
+}
+.what-container{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  margin-top: 15px;
+}
+.what-paragraph{
+  font-family: "Roboto"; 
+  font-size: 18px; 
+  font-weight: 400; 
+  color: #716E75;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+
+}
+.what-container-outer{
+  display: flex; 
+  flex-direction: column;
+  padding: 10px;
+}
+.horizontal-line{
+  border: 1px solid #716E75;
+  margin-left: 20px; 
+  margin-right: 20px;
+
+}
+.love-icon{
+  font-size: 25px; 
+  font-weight: bold; 
+  color: red; 
+}
+.group-icon{
+  font-size: 25px; 
+  color: #799CF2; 
+}
+.key-roles-container{
+  list-style-type: disc;
+}
+.skill-icon{
+  font-size: 25px; 
+  color: green; 
+}
+.skills-container{
+  list-style-type: none;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.salary-range-main-container{
+  width: 100%; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+.briefcase-icon{
+  color: #5C93F2;
+  font-size: 25px; 
+}
+.career-container{
+  list-style-type: none;
+}
+.arrow-icon{
+  font-size: 25px; 
+  color: #ED8B28; 
+}
+.project-container{
+  list-style-type: none;
+}
+.time-icon{
+  font-size: 25px; 
+  color: green; 
+}
+.time-container{
+    width: 100%; 
+    border: 1px solid #40F56D; 
+    background-color: #DAEDDF;
+    border-radius: 8px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+.time-para{
+    font-size: 18px; 
+    color: #044D25; 
+    font-weight: 500; 
+    font-family: "Roboto"; 
+    margin-bottom: 10px;
+}
+.note-container{
+  width: 100%; 
+  border: 1px solid #F0643C; 
+  background-color: #F2D2C9;
+  border-radius: 8px; 
+  padding: 10px;
+  margin-top: 15px;
+}
+.note-para{
+  font-size: 20px; 
+    color: #F0643C; 
+    font-weight: 600; 
+    font-family: "Roboto"; 
+    margin-bottom: 10px;
+}
+.what-container-time{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.cap-icon{
+  font-size: 25px; 
+  color: green; 
+}
+.resoures-heading{
+  font-size: 18px;
+    font-weight: 500; 
+    color: #716E75; 
+    font-family: "Roboto"; 
+    margin-top: 15px;
+}
+.source-main-container{
+  width: 100%; 
+}
+.unorder-source-container{
+  width: 100%;
+  list-style-type: none; 
+}
+.company-icon{
+  font-size: 25px;
+  color:  #5953F5; 
+}
+.top-companies-main-container{
+  list-style-type: none;
+  width: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+.pro-tip-container{
+  background-color: #F7F3D5;
+  border: 1px solid #EDDA4A; 
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 8px;
+
+}
+.pro-icon{
+  font-size: 35px; 
+  color: #DEBC00; 
+   margin-bottom: 30px;
+}
+.pro-span{
+  color: #DEBC00;
+  font-size: 18px;
+  font-weight: 600; 
+}
+.pro-para{
+  font-weight: 500; 
+  color: #F5BF82; 
+  font-family: "Roboto"; 
+  font-size: 18px; 
+  padding-top: 5px; 
+}
+.all-data-of-domain-container{
+    width: 90%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: stretch;
+    margin-top:20px; 
+    border-radius: 10px; 
+}
+@media (min-width: 756px){
+  .career-container{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }.top-companies-main-container{
+    width: 100%; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  }.pro-tip-container{
+    justify-content: center;
+  }
+}

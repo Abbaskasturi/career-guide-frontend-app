@@ -1,0 +1,106 @@
+.signup-bg-container{
+    background-color: #F9EFF9;
+    height: 100vh; 
+    width: 100vw; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-card{
+    background-color: #ffffff;
+    border-width: 0px;
+    border-radius: 10px;
+    width: 95%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.sing-up-heading{
+    color: #BB67F5; 
+    font-size: 28px; 
+    font-weight: bold; 
+    font-family: "Roboto"; 
+    margin: 15px;
+
+
+}
+
+.goal-icon{
+    font-size: 80px; 
+    color: #D4A7DB; 
+}
+
+.sign-up-paragraph{
+    font-family: "Roboto"; 
+    color: #716E75; 
+    font-size: 18px; 
+    font-weight: 100; 
+    margin: 10px;
+}
+.account-heading{
+    font-size: 22px; 
+    font-family: "Roboto"; 
+    color: #000000; 
+    font-weight: 600; 
+    margin: 10px;
+}
+.form-container{
+    width: 100%; 
+}
+.input-tag{
+    width: 90%; 
+    height: 45px;
+    border-width: 1px;
+    border-radius: 10px; 
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500; 
+    color: #000000;  
+    margin: 10px;
+}
+
+.start-btn{
+    width: 90%; 
+    height: 45px;
+    border-width: 0px;
+    border-radius: 15px; 
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500; 
+    color: #ffffff;  
+    margin: 10px;
+    background-image: linear-gradient(to right,  #B687F5, #F593E6);
+}
+.message-para{
+    font-size: 18px; 
+    color: #716E75; 
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    text-align: center;
+}
+.msg-span{
+    font-weight: 400; 
+    color: #BB67F5; 
+}
+.suc-display-msg{
+    font-size: 18px; 
+    font-weight: 600; 
+    color: green; 
+    font-family: "Roboto"; 
+    text-align: center;
+}
+.fail-display-msg{
+    font-size: 18px; 
+    font-weight: 600; 
+    color: red; 
+    font-family: "Roboto"; 
+    text-align: center;
+}
+@media (min-width: 756px){
+    .sign-up-card{
+        width: 40%; 
+    }
+}

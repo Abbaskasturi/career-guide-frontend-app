@@ -1,0 +1,102 @@
+.coding-icon{
+    font-size: 35px; 
+    color: #ffffff; 
+}
+.coding-btn{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50px;
+    border-width: 0px;
+    background-image: linear-gradient(to right,#A974F2, #F06EE1);
+}
+.each-plateform-container{
+    width: 100%; 
+    background-color: #ffffff;
+    border: 1px solid #93A7F5; 
+    margin: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.practice-plateform-container{
+    width: 90%; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top:20px; 
+    border-radius: 10px;
+    background-color: #ffffff; 
+
+}
+.each-plateform-container-outer{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 90%; 
+}
+.coding-heading{
+    text-align: center;
+    font-size: 30px; 
+    font-family: "Roboto"; 
+    font-weight: bold; 
+    color: #000000; 
+    padding-top: 10px;
+}
+.coding-para{
+    text-align: center;
+    color: #716E75;
+    font-size: 18px; 
+    font-family: "Roboto"; 
+    font-weight: 400; 
+    padding-top: 10px; 
+    margin-bottom: 10px;
+}
+.plateform-heading{
+    font-size: 20px; 
+    font-family: "Roboto"; 
+    color:#000000; 
+    font-weight: 900; 
+    margin-top: 8px;
+}
+.quotation{
+   font-size: 18px; 
+    font-family: "Roboto"; 
+    color: #716E75;
+    font-weight: 400; 
+    margin-top: 5px;  
+}
+.start-btn-practice{
+    width: 100%; 
+     background-image: linear-gradient(to right,#A974F2, #F06EE1);
+     color: #ffffff; 
+     font-weight: 900; 
+     font-family: "Roboto"; 
+     font-size: 15px; 
+     height: 35px;
+     border: 0px; 
+     border-radius: 10px; 
+
+}
+.start-link{
+    width: 90%; 
+    margin-top: 5px;
+}
+@media (min-width: 756px){
+    .each-plateform-container-outer{
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: wrap;
+
+    }.each-plateform-container{
+        width: 45%; 
+    }
+}

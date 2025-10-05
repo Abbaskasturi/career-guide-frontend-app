@@ -1,0 +1,12 @@
+.app-items{
+    font-size: 18px; 
+    color: #F2840F; 
+    font-weight: 400; 
+    font-family: "Roboto";
+    background-color: #F2DFCB;
+    margin: 15px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: 1px solid #F2CDA5; 
+
+}

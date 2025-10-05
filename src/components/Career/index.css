@@ -1,0 +1,18 @@
+.career-items{
+    font-size: 18px; 
+    color: #6207F5; 
+    font-weight: 400; 
+    font-family: "Roboto";
+    background-color: #EEDFF7;
+    margin: 15px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: 1px solid #C569FA; 
+
+}
+@media (min-width: 756px){
+    .career-items{
+        width: 45%;
+        margin: 5px;  
+    }
+}
