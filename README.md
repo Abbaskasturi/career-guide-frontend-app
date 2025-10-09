@@ -43,10 +43,10 @@ A student-first career guidance web app that recommends **which domain fits you 
 
 ---
 # clone the repo
-git clone https://github.com/Abbaskasturi/career-guide-frontend-app.git
-cd myapp
-npm install
-npm start
+git clone https://github.com/Abbaskasturi/career-guide-frontend-app.git<br/>
+cd myapp<br/>
+npm install<br/>
+npm start<br/>
 ## Backend  
 [GitHub Repository → https://github.com/Abbaskasturi/careerguidesproject]
 
