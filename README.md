@@ -44,23 +44,9 @@ A student-first career guidance web app that recommends **which domain fits you 
 ---
 # clone the repo
 git clone https://github.com/Abbaskasturi/career-guide-frontend-app.git
-
-# go into the project folder (repo name is the default)
-cd career-guide-frontend-app
-
-# OR if you want the folder to be named "myapp" instead:
-# git clone https://github.com/Abbaskasturi/career-guide-frontend-app.git myapp
-# cd myapp
-
-# install dependencies
+cd myapp
 npm install
-
-# start dev server
 npm start
-
-# build for production
-npm run build
-
 ## Backend  
 [GitHub Repository → https://github.com/Abbaskasturi/careerguidesproject]
 
