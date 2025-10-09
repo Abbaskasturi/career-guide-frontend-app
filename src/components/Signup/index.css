@@ -24,6 +24,7 @@
     font-weight: bold; 
     font-family: "Roboto"; 
     margin: 15px;
+    text-align: center;
 
 
 }
@@ -39,6 +40,7 @@
     font-size: 18px; 
     font-weight: 100; 
     margin: 10px;
+    text-align: center;
 }
 .account-heading{
     font-size: 22px; 
@@ -98,6 +100,12 @@
     color: red; 
     font-family: "Roboto"; 
     text-align: center;
+}
+.outer-loader-container{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
 }
 @media (min-width: 756px){
     .sign-up-card{
