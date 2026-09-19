@@ -2,6 +2,8 @@
 
 [Live Demo → https://career-guide-frontend-app.vercel.app/signup]
 
+#backend github url : https://github.com/Abbaskasturi/careerguidesproject
+
 A student-first career guidance web app that recommends **which domain fits you best** based on ability + interest and delivers a complete, actionable roadmap: **why choose it**, **what it is**, **where to learn**, **how to practice**, **project ideas**, **expected salaries**, and an **internship timeline**. Includes JWT auth.
 
 
